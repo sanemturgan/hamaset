@@ -1,0 +1,33 @@
+.HeaderMain h1 {
+  font-size: 48px;
+  font-weight: bold;
+  padding: 20px;
+}
+.HeaderMain {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.lastAdded {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #f3f4f4;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.lastAdded h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+@media screen and (max-width: 580px) {
+  .bottomNewsCard {
+    flex-direction: column;
+    width: 200px;
+  }
+  .bottomNewsCardTitle {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.breadCrumbs {
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.breadCrumbs i {
+  margin: 0 5px;
+}
+
+.detailMain {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: auto;
+}
+.textMain {
+  display: flex;
+  margin-top: 20px;
+}
+.textSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+}
+.textTitleShort {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.writeImg img {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+}
+.writerDate {
+  border-bottom: 1px solid #a0a0a0;
+}
+.writerDate p {
+  color: #a0a0a0;
+}
+.writerDate a {
+  color: #e23734;
+  font-weight: bolder;
+}
+.writerInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.writerInfo span {
+  color: #e23734;
+  font-weight: bolder;
+  padding: 5px;
+}
+.writerInfo p {
+  color: #a0a0a0;
+  margin-bottom: 0;
+}
+.writerMail a {
+  color: #a0a0a0;
+  margin-top: -10px;
+  margin-left: 5px;
+}
+.textTitle h3 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.writerSection {
+  display: flex;
+  width: 100%;
+}
+.writerDetails {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 100%;
+}
+.writerDate {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.writerInfo {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+.writerMail {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+.newsText {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.newsText p {
+  font-size: 20px;
+  color: #313131;
+}
+.newsText span {
+  font-size: 26px;
+  font-weight: bold;
+  padding: 10px;
+}
+.newsTextImg {
+  margin: 10px 0;
+}
+.newsTextImg img {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+}
+.writerOtherText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+.writerOtherTextHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  background-color: #eeeeee;
+  border: 1px solid #dcdcdc;
+  font-weight: bolder;
+}
+.writerOtherText ul {
+  list-style: none;
+  padding: 20px;
+}
+.writerOtherText li {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.otherTitle {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dcdcdc;
+}
+.otherTitle i {
+  color: #e23734;
+}
+.otherTitle h4 {
+  font-weight: bolder;
+  font-size: 16px;
+}
+.stickyAbout {
+  background-color: #f3f4f4;
+  color: #a0a0a0;
+  display: flex;
+  width: fit-content;
+  padding: 20px;
+}
+.stickyAbout a {
+  margin: 5px;
+}
+.commitSection {
+  display: flex;
+  border-bottom: 1px solid #a0a0a0;
+}
+.commitSection p {
+  color: #313131;
+  font-size: 12px;
+  padding: 10px;
+  font-weight: bold;
+}
+.commitSection span {
+  color: #bebcbc;
+  font-size: 12px;
+  padding: 10px;
+  font-weight: bold;
+}
+.commitText {
+  display: flex;
+  padding: 20px;
+}
+.userImg {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.userImg i {
+  font-size: 30px;
+}
+.userNameAndDate {
+  display: flex;
+  padding: 10px 20px;
+}
+.userNameAndDate span {
+  margin-left: 10px;
+  color: #a0a0a0;
+}
+.userCommit {
+  padding: 10px 20px;
+}
+.answer {
+  padding: 10px 20px;
+}
+.answer button {
+  background-color: inherit;
+  border: none;
+  color: #e23734;
+  font-weight: bolder;
+}
+.formCommit {
+  padding: 20px;
+}
+.otherTextHeader {
+  border-top: 1px solid #bebcbc;
+  border-bottom: 1px solid #bebcbc;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.otherTextSection {
+  display: flex;
+  padding: 10px;
+}
+.otherTextCards {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.otherTextCardHeader {
+  display: flex;
+
+  font-weight: bolder;
+}
+.otherTextCardHeader span {
+  color: #e23734;
+  margin: 0 10px;
+}
+.otherTextCardHeader h6 {
+  color: #a0a0a0;
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+}
+.otherTextCardHeader p {
+  color: #dcdcdc;
+}
+.otherTextTitle h5 {
+  color: #313131;
+  font-weight: bolder;
+}
+.otherDetails {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #bebcbc;
+  padding: 10px 0;
+}
+.otherDetails a {
+  color: #e23734;
+}
+@media screen and (max-width: 1300px) {
+  .textMain {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .writerOtherText {
+    width: 100%;
+    display: flex;
+  }
+  .writerOtherText ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .writerOtherText li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+  }
+  .otherTitle {
+    border: none;
+    flex-direction: column;
+    align-items: center;
+  }
+  .otherTitle i {
+    display: none;
+  }
+  .stickyAbout {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .otherTextSection {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .newsText {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 860px) {
+  .breadCrumbs a {
+    font-size: 12px;
+  }
+  .breadCrumbs i {
+    font-size: 12px;
+  }
+  .textTitle h3 {
+    font-size: 20px;
+  }
+  .newsText p {
+    font-size: 12px;
+  }
+  .newsText span {
+    font-size: 14px;
+  }
+  .textTitleShort p {
+    font-size: 18px;
+  }
+  .writerDate p {
+    font-size: 12px;
+  }
+  .writerDate a {
+    font-size: 12px;
+  }
+  .writerInfo p {
+    font-size: 12px;
+  }
+  .writerInfo span {
+    font-size: 12px;
+  }
+  .writerMail a {
+    font-size: 12px;
+  }
+  .writerSection {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .writerDate {
+    justify-content: space-around;
+  }
+  .writerInfo {
+    align-items: center;
+    justify-content: center;
+  }
+  .writerMail {
+    justify-content: center;
+    align-items: center;
+  }
+}

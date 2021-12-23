@@ -1,0 +1,43 @@
+.WritersMain {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.writerCard {
+  display: flex;
+  border: 1px solid #eeee;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.writerCardImg {
+  width: 100px;
+}
+.writerCardImg img {
+  position: relative;
+  object-fit: cover;
+}
+.writerCardInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 12px;
+}
+.writerCardInfo h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #313131;
+}
+.writerCardInfo span {
+  font-size: 16px;
+  color: #cb3727;
+  font-weight: normal;
+}
+.writerCardInfo p {
+  font-size: 12px;
+  color: #b5b5b5;
+  margin: 0;
+}

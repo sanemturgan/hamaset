@@ -1,0 +1,125 @@
+@media (min-width: 576px) {
+
+
+    .carousel-caption h5 {
+        font-size: 16px;
+        color: #ffc52c;
+        margin-bottom: 5px;
+    }
+
+    .caption-title {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-bottom: 5px;
+    }
+
+    .caption-info {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+
+    .caption-info span {
+        color: #ffc52c;
+    }
+
+
+
+
+
+    .hero-box-caption {
+        position: absolute;
+        bottom: 0;
+        padding: 7px 15px;
+    }
+
+    .hero-box-caption h5 {
+        color: #ffc52c;
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+
+    .hero-box-info {
+        margin-bottom: 0;
+        color: #fff;
+        font-size: 8px;
+    }
+
+    .hero-box-title {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18px;
+        margin-bottom: 2px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    
+
+    
+    .hero-box-title {
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    
+    .hero-box-title {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    
+    .caption-title {
+        font-size: 42px;
+        line-height: 42px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    
+    .hero-box-title {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    
+    .caption-title {
+        font-size: 42px;
+        line-height: 42px;
+    }
+    
+    .caption-info {
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    
+    .hero-box-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    .caption-title {
+        font-size: 52px;
+        line-height: 52px;
+    }
+    
+    .caption-info {
+        font-size: 16px;
+    }
+    
+}
+
+
+
+
+
+
+
+
