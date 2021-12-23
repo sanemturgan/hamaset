@@ -472,6 +472,7 @@
         .swiper {
             max-width: 1200px;
             height: 400px;
+            display: flex;
         }
 
         .swiper-wrapper {
@@ -566,12 +567,15 @@
 
     <div class="cultureSwiperMain">
         <div class="cultureSwiperHeader">
-            <h4>KÜLTÜR</h4>
+            <div class="HeaderCenter">
+                <h4>KÜLTÜR</h4>
+                <div class="stick"><img src="/img//Path13.png" alt=""></div>
+                <div class="swiperButtonBox">
+                    <div class="swiper-button-prev"><i class="fas fa-caret-square-left"></i>
+                    </div>
+                    <div class="swiper-button-next"><i class="fas fa-caret-square-right"></i></div>
 
-            <div class="swiperButtonBox">
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-
+                </div>
             </div>
         </div>
         <div class="swiper mySwiper">
@@ -902,6 +906,8 @@
     <!-- Culture Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
+        const nextIcon='<i class="fas fa-caret-square-left"></i>';
+        const prevIcon='<i class="fas fa-caret-square-left"></i>';
         var swiper=new Swiper(".mySwiper",{
             slidesPerView: 3,
             spaceBetween: 30,

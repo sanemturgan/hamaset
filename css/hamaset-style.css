@@ -328,7 +328,7 @@ a {
 .newsSection {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   max-width: 1200px;
   margin: auto;
@@ -337,8 +337,9 @@ a {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-
+  justify-content: center;
   margin-top: -60px;
+  margin-left: -56px;
 }
 .cardNews {
   display: flex;
@@ -532,12 +533,27 @@ a {
   padding: 20px;
   background-color: #198f94;
   color: #fff;
-  font-size: 24px;
-  display: flex;
-
-  justify-content: space-around;
 }
-
+.HeaderCenter {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.stick {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cultureSwiperHeader h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.stick img {
+  position: relative;
+  object-fit: cover;
+}
 .cultureSwiperImg img {
   position: relative;
   object-fit: cover;
@@ -571,6 +587,7 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
   max-width: 1200px;
   align-items: center;
   justify-content: center;
@@ -636,7 +653,7 @@ a {
   color: #e23734;
 }
 .bottomNewsMoreButton {
-  max-width: 1200px;
+  max-width: 1170px;
   margin: auto;
   background-color: #eeeeee;
   color: #111;
@@ -660,7 +677,7 @@ a {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .logoandicons {
   display: flex;
@@ -692,11 +709,12 @@ a {
   font-weight: bold;
   font-size: 16px;
 }
+
 .footerBottom {
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #260100;
   color: #fff;
 }
@@ -704,13 +722,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 150px;
 }
 .design {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 150px;
+  margin-left: 150px;
 }
 .design span {
   color: #ffaaa1;
@@ -735,6 +752,7 @@ a {
   }
   .newsCards {
     margin-top: 0;
+    margin-left: 0;
     /* flex-wrap: nowrap;
     flex-direction: column; */
   }
