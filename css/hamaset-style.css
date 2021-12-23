@@ -536,9 +536,14 @@ a {
 }
 .HeaderCenter {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   max-width: 1200px;
   margin: auto;
+}
+.HeaderCenter h4 {
+  margin: 0;
 }
 .stick {
   padding: 20px;
@@ -836,6 +841,13 @@ a {
   .cultureSwiperTitle a {
     font-size: 16px;
   }
+  .HeaderCenter {
+    display: flex;
+    flex-direction: column;
+  }
+  .stick {
+    display: none;
+  }
 }
 @media screen and (max-width: 850px) {
   .mostReadList {
@@ -845,6 +857,9 @@ a {
   }
   .bottomCardWriterInfo {
     display: none;
+  }
+  .bottomNewsCardsMain {
+    margin-bottom: 7px;
   }
   .footerTop {
     flex-direction: column;
@@ -885,5 +900,15 @@ a {
   }
   .bottomNewsCardImg {
     display: none;
+  }
+  .footerDetail p {
+    font-size: 10px;
+  }
+
+  .private p {
+    font-size: 5px;
+  }
+  .design p {
+    font-size: 5px;
   }
 }
