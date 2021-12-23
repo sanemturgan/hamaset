@@ -16,13 +16,17 @@ a {
 }
 #dummy {
   width: 100%;
-  max-width: 1250px;
+  max-width: 1200px;
   padding: 0 25px;
   margin: auto;
 }
 
 /* Navigation Start */
-
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0;
+}
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -65,6 +69,7 @@ a {
 .nav-link {
   color: #313131 !important;
   font-weight: 600;
+  padding: 0;
 }
 
 .nav-link-icon {
@@ -325,24 +330,24 @@ a {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 1350px;
-  padding: 0 25px;
+  max-width: 1200px;
   margin: auto;
 }
 .newsCards {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+
+  margin-top: -60px;
 }
 .cardNews {
   display: flex;
   justify-content: center;
+
   flex-direction: column;
   border: 1px solid #dcdcdc;
-  width: 405px;
-
-  margin: 20px;
+  width: 365px;
+  margin: 15px;
 }
 .cardNewsImg {
   width: 325px;
@@ -438,7 +443,7 @@ a {
   display: flex;
   flex-direction: column;
   border: 1px solid #dcdcdc;
-  margin: 20px;
+  margin: 20px 0;
 }
 .mostReadHeader {
   border-bottom: 1px solid #dcdcdc;
@@ -448,7 +453,7 @@ a {
   background-color: #e23734;
   color: #fff;
   padding: 20px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
 }
 .mostReadList {
@@ -456,12 +461,15 @@ a {
   flex-direction: column;
   list-style: none;
   justify-content: center;
+
+  padding: 0px;
 }
 
 .mostReadList li {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
   padding: 20px;
 }
 .mostReadListNumber {
@@ -469,13 +477,18 @@ a {
   font-weight: lighter;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  text-align: center;
+  justify-content: center;
   margin-right: 27px;
+}
+.mostReadListNumber p {
+  color: #b5b5b5;
 }
 .mostReadListDetail {
   border-bottom: 1px solid #dcdcdc;
   display: flex;
   flex-direction: column;
+  margin-left: 20px;
 }
 .mostReadDetailHeader {
   display: flex;
@@ -569,12 +582,15 @@ a {
   justify-content: center;
   align-items: center;
   width: 560px;
-
   margin: 20px;
 }
 .bottomNewsCardImg {
   margin: 0;
   padding: 0;
+}
+.bottomNewsCardImg img {
+  position: relative;
+  object-fit: contain;
 }
 .bottomCardWriterInfo {
   display: flex;
@@ -844,5 +860,12 @@ a {
   }
   .cultureSwiperTitle a {
     font-size: 12px;
+  }
+  .bottomNewsCard {
+    width: 100%;
+    margin: 10px;
+  }
+  .bottomNewsCardImg {
+    display: none;
   }
 }
