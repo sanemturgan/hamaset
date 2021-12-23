@@ -371,6 +371,10 @@ a {
   padding: 0 20px;
   display: flex;
   align-items: flex-start;
+  cursor: pointer;
+}
+.cardNewsTitle :hover {
+  text-decoration: underline;
 }
 .cardNewsTitle h4 {
   font-size: 25px;
@@ -426,6 +430,9 @@ a {
 .cardMore a {
   color: #e23734;
   font-size: 12px;
+}
+.cardMore :hover {
+  text-decoration: underline;
 }
 .mostRead {
   display: flex;
@@ -539,6 +546,12 @@ a {
 .cultureSwiperTitle a {
   font-size: 25px;
   font-weight: bolder;
+}
+.cultureSwiperTitle {
+  cursor: pointer;
+}
+.cultureSwiperTitle:hover {
+  text-decoration: underline;
 }
 /* Bottom News Cards Start */
 .bottomNewsCardsMain {
@@ -695,10 +708,7 @@ a {
   .cardNews {
     width: 365px;
   }
-  .newsCards {
-    /* flex-wrap: nowrap;
-    flex-direction: column; */
-  }
+
   .mostRead {
     width: 550px;
   }
