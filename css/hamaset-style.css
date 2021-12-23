@@ -424,10 +424,14 @@ a {
 }
 .cardFooter {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 20px 20px 0 20px;
+  padding: 20px;
   border-top: 1px solid #dcdcdc;
   font-size: 12px;
+}
+.cardFooter p {
+  margin: 0;
 }
 .cardDate p {
   color: #a0a0a0;
@@ -595,7 +599,7 @@ a {
   width: 100%;
   max-width: 1200px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin: auto;
 }
 .bottomNewsCard {
@@ -603,8 +607,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 560px;
-  margin: 20px;
+  width: 580px;
+  margin: 10px 5px;
 }
 .bottomNewsCardImg {
   margin: 0;
@@ -666,6 +670,30 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.cardComment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a0a0a0;
+}
+.cardComment i {
+  padding: 2px;
+  font-size: 10px;
+}
+.cardview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a0a0a0;
+}
+.cardview i {
+  padding: 2px;
+  font-size: 10px;
+}
+.cardMore i {
+  color: #a0a0a0;
+  font-size: 12px;
 }
 
 /* Footer */
@@ -847,6 +875,9 @@ a {
   }
   .stick {
     display: none;
+  }
+  .bottomNewsCardsMain {
+    justify-content: center;
   }
 }
 @media screen and (max-width: 850px) {
