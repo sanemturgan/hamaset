@@ -682,7 +682,7 @@ a {
 }
 .cardComment {
   display: flex;
-  align-items: center;
+
   justify-content: center;
   color: #a0a0a0;
 }
@@ -690,19 +690,29 @@ a {
   padding: 2px;
   font-size: 10px;
 }
+.cardComment p {
+  margin: 0;
+}
 .cardview {
   display: flex;
-  align-items: center;
   justify-content: center;
   color: #a0a0a0;
 }
 .cardview i {
-  padding: 2px;
+  padding: 0 2px;
   font-size: 10px;
+}
+.cardview p {
+  margin: 0;
+}
+.cardMore {
+  display: flex;
+  justify-content: center;
 }
 .cardMore i {
   color: #a0a0a0;
   font-size: 12px;
+  padding: 0 2px;
 }
 
 /* Footer */
@@ -756,7 +766,7 @@ a {
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #260100;
   color: #fff;
 }
@@ -920,6 +930,10 @@ a {
     text-align: center;
     width: 100%;
   }
+  /* .footerBottom {
+    align-items: center;
+    justify-content: center;
+  } */
   .footerDetail {
     margin: 0;
     padding: 0;
@@ -957,9 +971,22 @@ a {
   }
 
   .private p {
-    font-size: 5px;
+    font-size: 12px;
+    margin: 0;
+  }
+  .design {
+    margin: 0;
+    padding: 5px;
+  }
+  .private {
+    margin: 0;
+    padding: 5px;
   }
   .design p {
-    font-size: 5px;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .cardFooter {
+    padding: 10px;
   }
 }
