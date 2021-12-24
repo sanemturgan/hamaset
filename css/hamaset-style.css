@@ -130,6 +130,11 @@ a {
 
 /* Hero Start */
 
+.hero {
+  max-width: 1200px;
+  margin: auto;
+}
+
 .hero-box-1 {
   position: relative;
   height: 100%;
@@ -252,6 +257,8 @@ a {
   padding: 20px 0px;
   background-image: url(../img/title-line.jpg);
   background-position: center;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .section-title h3 {
@@ -285,7 +292,10 @@ a {
   margin-top: 5px;
   font-size: 14px;
 }
-
+#writers {
+  max-width: 1200px;
+  margin: auto;
+}
 #writers .owl-theme {
   background-color: #f4f4f4;
   border: 1px solid #e3e4e4;
@@ -339,7 +349,7 @@ a {
   align-items: center;
   justify-content: center;
   margin-top: -60px;
-  margin-left: -56px;
+  margin-left: -60px;
 }
 .cardNews {
   display: flex;
@@ -619,6 +629,9 @@ a {
   margin: 0;
   padding: 0;
 }
+.bottomNewsCardDetail {
+  width: 100%;
+}
 .bottomNewsCardImg img {
   position: relative;
   object-fit: contain;
@@ -708,6 +721,7 @@ a {
 .cardMore {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .cardMore i {
   color: #a0a0a0;
@@ -795,7 +809,10 @@ a {
   }
 
   .mostRead {
-    width: 550px;
+    width: 700px;
+  }
+  .newsCards {
+    margin-left: -50px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -903,12 +920,16 @@ a {
   .bottomNewsCardsMain {
     justify-content: center;
   }
+  .bottomNewsCardTitle {
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 850px) {
   .mostReadList {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
   .mostReadList li {
     justify-content: center;
@@ -960,8 +981,11 @@ a {
     font-size: 12px;
   }
   .bottomNewsCard {
+    width: 320px;
+  }
+  .bottomNewsMoreButton {
     width: 100%;
-    margin: 10px;
+    padding: 10px;
   }
   .bottomNewsCardImg {
     display: none;
@@ -988,5 +1012,12 @@ a {
   }
   .cardFooter {
     padding: 10px;
+  }
+  .cultureSwiperHeader {
+    padding: 10px;
+  }
+
+  .HeaderCenter h4 {
+    font-size: 16px;
   }
 }

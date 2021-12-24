@@ -47,18 +47,34 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
                     <ul id="navMove" class="navbar-nav">
+                        <style>
+                            .dropdown-toggleOne::after {
+                                display: none;
+                            }
+
+                            .nav-item i {
+                                padding: 10px;
+                            }
+                        </style>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link dropdown-toggleOne" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fas fa-bars"></i>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li class="nav-item"><a class="nav-link" href="/Dunya.html">DÜNYA</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/Siyaset.html">SİYASET</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/Mercek.html">MERCEK</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/Kultur.html">KÜLTÜR</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/Roportaj.html">RÖPORTAJ</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/Yazarlar.html">YAZARLAR</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/Dunya.html"><i
+                                            class="fas fa-globe"></i>DÜNYA</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/Siyaset.html"><i
+                                            class="far fa-flag"></i>SİYASET</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/Mercek.html"><i
+                                            class="fas fa-search"></i>MERCEK</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/Kultur.html"><i
+                                            class="fas fa-landmark"></i>KÜLTÜR</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/Roportaj.html"><i
+                                            class="fas fa-comments"></i>RÖPORTAJ</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/Yazarlar.html"><i
+                                            class="fas fa-user-edit"></i>YAZARLAR</a></li>
+
                             </ul>
                         </li>
 
@@ -116,6 +132,11 @@
     <!-- Hero Start -->
 
     <div id="hero">
+        <!-- <style>
+            .col-md-12 {
+                margin-right: 50px;
+            }
+        </style> -->
         <div class="container pt-3">
             <div class="row h-100">
 
@@ -518,6 +539,7 @@
             background-image: url(/img/Kultur_Doku-01-01.png);
             background-color: #C4ECE4;
             width: 100%;
+            overflow: hidden;
         }
 
         .swiper {
@@ -610,13 +632,15 @@
 
         @media screen and (max-width:1200px) {
             .swiper-slide {
-                width: 200px;
+                width: 300px;
             }
 
             .swiper {
 
                 height: 300px;
             }
+
+
         }
 
         @media screen and (max-width:850px) {
@@ -628,10 +652,9 @@
                 display: none;
             }
 
-            .swiper {
 
-                height: 200px;
-            }
+
+
         }
     </style>
 
