@@ -24,8 +24,10 @@
   font-weight: bold;
   margin: 0;
 }
-.bottomNewsCard {
+.bottomNewsCardTitle a {
+  font-size: 14px;
 }
+
 @media screen and (max-width: 580px) {
   .bottomNewsCard {
     flex-direction: column;
@@ -36,5 +38,14 @@
   }
   .HeaderMain h1 {
     font-size: 20px;
+  }
+  .cardMore a {
+    font-size: 8px;
+  }
+  .cardDate p {
+    font-size: 8px;
+  }
+  .bottomNewsCardTitle a {
+    font-size: 12px;
   }
 }

@@ -584,6 +584,11 @@ a {
 .cultureSwiperTitle a {
   font-size: 25px;
   font-weight: bolder;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 .cultureSwiperTitle {
   cursor: pointer;
@@ -620,12 +625,15 @@ a {
 }
 .bottomCardWriterInfo {
   display: flex;
+  align-items: center;
   padding: 15px;
 }
 .bottomCardWriterInfo h6 {
   color: #a0a0a0;
   font-size: 12px;
   font-weight: bold;
+  margin: 0;
+  line-height: 0;
 }
 .bottomCardWriterInfo span {
   color: #e23734;
@@ -638,6 +646,7 @@ a {
   font-size: 12px;
   font-weight: bold;
   margin-left: 5px;
+  margin-bottom: 0;
 }
 .bottomNewsCardTitle {
   font-size: 22px;
@@ -833,6 +842,11 @@ a {
   }
   .mostReadListNumber {
     font-size: 60px;
+    margin: 0;
+    justify-content: center;
+  }
+  .mostReadListNumber p {
+    margin: 0;
   }
   .mostReadListDetail {
     border-bottom: none;
@@ -886,6 +900,14 @@ a {
     align-items: center;
     justify-content: center;
   }
+  .mostReadList li {
+    justify-content: center;
+    width: 300px;
+  }
+
+  .mostReadDetailTitle a {
+    font-size: 14px;
+  }
   .bottomCardWriterInfo {
     display: none;
   }
@@ -907,9 +929,7 @@ a {
     margin: 0;
     padding: 0;
   }
-  .mostReadList li {
-    width: 300px;
-  }
+
   .cardNewsImg {
     width: 290px;
   }
