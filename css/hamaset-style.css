@@ -362,6 +362,7 @@ a {
 }
 .cardNewsImg {
   width: 325px;
+  height: 185px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -573,6 +574,9 @@ a {
   position: relative;
   object-fit: cover;
 }
+.cultureSwiperImg {
+  width: 320px;
+}
 .cultureSwiperImg img {
   position: relative;
   object-fit: cover;
@@ -614,7 +618,7 @@ a {
   width: 100%;
   max-width: 1200px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin: auto;
 }
 .bottomNewsCard {
@@ -628,6 +632,7 @@ a {
 .bottomNewsCardImg {
   margin: 0;
   padding: 0;
+  width: 290px;
 }
 .bottomNewsCardDetail {
   width: 100%;
@@ -635,6 +640,7 @@ a {
 .bottomNewsCardImg img {
   position: relative;
   object-fit: contain;
+  width: 100%;
 }
 .bottomCardWriterInfo {
   display: flex;
@@ -880,9 +886,15 @@ a {
   }
   .logoandicons {
     margin-left: 50px;
+    padding: 0;
+  }
+  .logo {
+    padding: 0;
   }
   .footerDetail {
     margin-right: 50px;
+    padding: 0;
+    padding-bottom: 20px;
   }
   .private {
     margin-left: 50px;
@@ -891,6 +903,7 @@ a {
     margin-right: 50px;
   }
   .showMore {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -925,6 +938,12 @@ a {
   }
   .footerBottom {
     justify-content: space-between;
+  }
+  .footerTop {
+    justify-content: space-between;
+  }
+  .cultureSwiperImg {
+    width: 260px;
   }
 }
 @media screen and (max-width: 850px) {
