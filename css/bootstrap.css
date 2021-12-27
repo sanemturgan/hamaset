@@ -6310,6 +6310,7 @@ fieldset:disabled .btn {
   position: relative;
   width: 100%;
   overflow: hidden;
+  margin-left: 1px;
 }
 .carousel-inner::after {
   display: block;
