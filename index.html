@@ -30,7 +30,7 @@
     <div id="navigation">
 
         <div id="header" class="text-center">
-            <img id="logoHeader" src="img/hamaset-logo.svg" alt="">
+            <a href="/"> <img id="logoHeader" src="img/hamaset-logo.svg" alt=""></a>
         </div>
 
         <nav id="navbarTop" class="navbar navbar-expand-lg navbar-light bg-light">
@@ -54,25 +54,50 @@
                                 <i class="fas fa-bars"></i>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li class="nav-item"><a class="nav-link" href="/Dunya.html"><i class="fas fa-globe"
-                                            style="padding: 5px; margin-right: 2px;"></i>DÜNYA</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/Siyaset.html"><i class="far fa-flag"
-                                            style="padding: 5px; margin-right: 2px;"></i>SİYASET</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/Mercek.html"><i class="fas fa-search"
-                                            style="padding: 5px; margin-right: 2px;"></i>MERCEK</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/Kultur.html"><i class="fas fa-landmark"
-                                            style="padding: 5px; margin-right: 2px;"></i>KÜLTÜR</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/Roportaj.html"><i
-                                            class="fas fa-comments"
-                                            style="padding: 5px; margin-right: 2px;"></i>RÖPORTAJ</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/Yazarlar.html"><i
-                                            class="fas fa-user-edit"
-                                            style="padding: 5px; margin-right: 2px;"></i>YAZARLAR</a></li>
+                                <div class="dropDownMain">
+                                    <div class="dropDownFirst">
 
+                                        <li class="navDrop-item"><a class="navDrop-link" href="/Dunya.html"><i
+                                                    class="fas fa-globe"
+                                                    style="padding: 5px; margin-right: 5px; color:#C9C9C9"></i>DÜNYA</a>
+                                        </li>
+                                        <li class="navDrop-item"><a class="navDrop-link" href="/Siyaset.html"><i
+                                                    class="far fa-flag"
+                                                    style="padding: 5px; margin-right: 5px; color:#C9C9C9"></i>SİYASET</a>
+                                        </li>
+                                        <li class="navDrop-item"><a class="navDrop-link" href="/Mercek.html"><i
+                                                    class="fas fa-search"
+                                                    style="padding: 5px; margin-right: 5px; color:#C9C9C9"></i>MERCEK</a>
+                                        </li>
+                                        <li class="navDrop-item"><a class="navDrop-link" href="/Kultur.html"><i
+                                                    class="fas fa-landmark"
+                                                    style="padding: 5px; margin-right: 5px; color:#C9C9C9"></i>KÜLTÜR</a>
+                                        </li>
+                                        <li class="navDrop-item"><a class="navDrop-link" href="/Roportaj.html"><i
+                                                    class="fas fa-comments"
+                                                    style="padding: 5px; margin-right: 5px; color:#C9C9C9"></i>RÖPORTAJ</a>
+                                        </li>
+                                        <li class="navDrop-item"><a class="navDrop-link" href="/Yazarlar.html"><i
+                                                    class="fas fa-user-edit"
+                                                    style="padding: 5px; margin-right: 5px; color:#C9C9C9"></i>YAZARLAR</a>
+                                        </li>
+                                    </div>
+                                    <div class="dropDownSecond"><a class="navDrop-link" href="/Kurumsal.html"><i
+                                                class="fas fa-building"
+                                                style="padding: 5px; margin-right: 5px; color:#C9C9C9"></i>KURUMSAL</a>
+                                        <ul>
+                                            <li class="dropdownSecond-item"><a href="#">Hakkımızda</a></li>
+                                            <li class="dropdownSecond-item"><a href="#">Künye</a></li>
+                                            <li class="dropdownSecond-item"><a href="#">İletişim</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </ul>
+
+
                         </li>
 
-                        <li class="nav-item"><a class="nav-link" href="/"><i class="fas fa-home"></i></a></li>
+
                         <li class="nav-item"><a class="nav-link" href="/Dunya.html">DÜNYA</a></li>
                         <li class="nav-item"><a class="nav-link" href="/Siyaset.html">SİYASET</a></li>
                         <li class="nav-item"><a class="nav-link" href="/Mercek.html">MERCEK</a></li>
@@ -86,8 +111,10 @@
                                 KURUMSAL
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Hakkımızda</a></li>
-                                <li><a class="dropdown-item" href="#">Künye</a></li>
+                                <li><a class="dropdown-item" style="border-bottom:1px solid #C9C9C9"
+                                        href="#">Hakkımızda</a></li>
+                                <li><a class="dropdown-item" href="#" style="border-bottom:1px solid #C9C9C9">Künye</a>
+                                </li>
                                 <li><a class="dropdown-item" href="#">İletişim</a></li>
                             </ul>
                         </li>
@@ -530,7 +557,7 @@
         }
 
         .cultureSwiperMain {
-            background-image: url(/img/Kultur_Doku-01-01.png);
+            background-image: url(/img/culturebnr.png);
             background-color: #C4ECE4;
             width: 100%;
             overflow: hidden;
@@ -540,6 +567,7 @@
             max-width: 1200px;
             height: 400px;
             display: flex;
+
         }
 
         .swiper-wrapper {
@@ -554,10 +582,11 @@
             display: -webkit-flex;
             display: flex;
             flex-direction: column;
-
+            align-items: center;
             justify-content: center;
             padding: 20px;
             width: 365px;
+
 
         }
 
@@ -599,12 +628,13 @@
             display: none;
         }
 
-        .swiper-slide img {
+        /* .swiper-slide img {
+            position: relative;
             display: block;
             width: 100%;
             height: 100%;
             object-fit: cover;
-        }
+        } */
 
         .swiper-pagination-bullet {
             width: 10px;
@@ -1037,9 +1067,11 @@
                     <img src="/img/HamasetFooterLogo.png" alt="">
                 </div>
                 <div class="icons">
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-twitter"></i>
                     <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+
+
                 </div>
             </div>
             <div class="footerDetail">

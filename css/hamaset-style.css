@@ -68,8 +68,12 @@ a {
 
 .nav-link {
   color: #313131 !important;
-  font-weight: 600;
+  font-weight: 700;
   padding: 0;
+  margin: 0 10px;
+}
+.navbar-nav :first-child {
+  margin: 0 10px 0 0;
 }
 
 .nav-link-icon {
@@ -80,9 +84,9 @@ a {
   border-radius: 0px;
 }
 
-.dropdown-menu li {
+/* .dropdown-menu li {
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-}
+} */
 
 .dropdown ul li:nth-last-child(1) {
   border-bottom: none;
@@ -116,17 +120,57 @@ a {
 #searchInput {
   height: 41px;
   width: 100%;
-  background: #e33835;
-  color: #ffffff;
+  background: #fff;
+  color: #313131;
   border: none;
   padding-left: 10px;
 }
 
 #searchInput::placeholder {
-  color: #ffffff;
+  color: #313131;
 }
 
 /* Navigation End */
+/* dropdown navbar */
+.dropDownMain {
+  display: flex;
+
+  padding: 10px;
+  width: 330px;
+}
+.dropDownFirst {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  margin-right: 20px;
+}
+.dropDownSecond {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7px;
+}
+.dropDownSecond ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+.dropdownSecond-item {
+  padding: 10px;
+}
+.dropdownSecond-item a {
+  color: #c9c9c9;
+}
+.navDrop-item {
+  padding: 10px;
+}
+.navDrop-item a {
+  font-size: 15px;
+  color: #313131;
+  font-weight: 500;
+  margin-left: 2px;
+}
 
 /* Hero Start */
 
@@ -150,11 +194,11 @@ a {
 }
 
 .size-a {
-  padding-bottom: 6px;
+  padding: 0 20px 20px 20px;
 }
 
 .size-b {
-  padding-top: 6px;
+  padding: 0 20px 0 20px;
 }
 
 .carousel-control-prev {
@@ -545,7 +589,7 @@ a {
 /*Culture Section Start*/
 .cultureSwiperHeader {
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   background-color: #198f94;
   color: #fff;
 }
@@ -576,14 +620,23 @@ a {
 }
 .cultureSwiperImg {
   width: 320px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .cultureSwiperImg img {
   position: relative;
-  object-fit: cover;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
 .swiperWriterInfo {
   display: flex;
-  padding: 20px 0 10px 0;
+
+  justify-content: flex-start;
+  width: 100%;
+  padding: 10px 0 0 0;
   font-size: 14px;
   font-weight: bold;
 }
@@ -597,7 +650,7 @@ a {
 }
 .cultureSwiperTitle a {
   font-size: 25px;
-  font-weight: bolder;
+
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -606,6 +659,9 @@ a {
 }
 .cultureSwiperTitle {
   cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
 }
 .cultureSwiperTitle:hover {
   text-decoration: underline;
@@ -768,7 +824,7 @@ a {
   margin: 5px;
 }
 .icons i {
-  color: #313131;
+  color: #c9c9c9;
   padding: 7px;
 }
 .footerDetail {
@@ -778,7 +834,8 @@ a {
   padding: 20px;
   margin-right: 150px;
   color: #313131;
-  font-weight: bold;
+  font-weight: 500;
+  text-align: right;
   font-size: 16px;
 }
 

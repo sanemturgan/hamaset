@@ -4495,7 +4495,7 @@ fieldset:disabled .btn {
   }
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    /* padding-left: 0.5rem; */
   }
   .navbar-expand-lg .navbar-nav-scroll {
     overflow: visible;
@@ -4507,6 +4507,7 @@ fieldset:disabled .btn {
   .navbar-expand-lg .navbar-toggler {
     display: none;
   }
+
   .navbar-expand-lg .offcanvas-header {
     display: none;
   }
@@ -6855,6 +6856,15 @@ fieldset:disabled .btn {
   left: 0;
   z-index: 1030;
 }
+.fixed-top .dropdown-toggleOne {
+  display: none;
+}
+.fixed-top .dropdown-toggle {
+  display: none;
+}
+.fixed-top #searchButton {
+  display: none;
+}
 
 .fixed-bottom {
   position: fixed;
@@ -7835,7 +7845,7 @@ fieldset:disabled .btn {
 }
 
 .pt-3 {
-  padding-top: 1rem !important;
+  padding-top: 20px !important;
 }
 
 .pt-4 {
