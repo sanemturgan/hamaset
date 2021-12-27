@@ -28,9 +28,19 @@
   }
 
   .navbar-collapse {
-    padding-top: 20px;
+    padding: 20px 5px;
+    background-color: #fff;
+    z-index: 999;
   }
-
+  #navbarDropdown.nav-link.dropdown-toggleOne {
+    display: none;
+  }
+  #navbarDropdown.nav-link.dropdown-toggle {
+    display: none;
+  }
+  .nav-item {
+    padding: 5px;
+  }
   #searchForm {
     width: 90%;
   }

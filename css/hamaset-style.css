@@ -50,6 +50,7 @@ a {
 
 .bg-light {
   background: #ffffff !important;
+  height: 50px;
 }
 
 #header {
@@ -115,19 +116,20 @@ a {
 #searchForm {
   display: none;
   width: 100%;
+  height: 41px;
 }
 
 #searchInput {
   height: 41px;
   width: 100%;
+
   background: #fff;
-  color: #313131;
   border: none;
-  padding-left: 10px;
+  padding-left: 320px;
 }
 
 #searchInput::placeholder {
-  color: #313131;
+  color: #c9c9c9;
 }
 
 /* Navigation End */
@@ -804,18 +806,22 @@ a {
   border: 1px solid #dcdcdc;
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+}
+.footerTopDiv {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
 }
 .logoandicons {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
-  margin-left: 150px;
+  /* margin-left: 190px; */
 }
 .logo {
-  padding: 10px;
   margin-right: 5px;
 }
 .icons {
@@ -832,7 +838,7 @@ a {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  margin-right: 150px;
+  /* margin-right: 200px; */
   color: #313131;
   font-weight: 500;
   text-align: right;
@@ -843,24 +849,24 @@ a {
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: space-around;
+
   background-color: #260100;
   color: #fff;
+}
+.privateDiv {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  justify-content: flex-start;
 }
 .private {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 20px;
 }
-.design {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 150px;
-}
-.design span {
-  color: #ffaaa1;
-}
+
 @media screen and (max-width: 1400px) {
   .newsSection {
     max-width: 1200px;
@@ -879,6 +885,9 @@ a {
   }
 }
 @media screen and (max-width: 1200px) {
+  #searchInput {
+    padding-left: 5px;
+  }
   .newsSection {
     flex-direction: column;
   }
@@ -942,20 +951,13 @@ a {
     border-bottom: none;
   }
   .logoandicons {
-    margin-left: 50px;
+    /* margin-left: 80px; */
     padding: 0;
   }
   .logo {
     padding: 0;
   }
-  .footerDetail {
-    margin-right: 50px;
-    padding: 0;
-    padding-bottom: 20px;
-  }
-  .private {
-    margin-left: 50px;
-  }
+
   .design {
     margin-right: 50px;
   }
@@ -993,14 +995,27 @@ a {
   .bottomNewsCardTitle {
     font-size: 16px;
   }
-  .footerBottom {
-    justify-content: space-between;
-  }
+
   .footerTop {
     justify-content: space-between;
   }
   .cultureSwiperImg {
     width: 260px;
+  }
+  .logoandicons {
+    padding: 0 25px;
+  }
+  .footerDetail {
+    padding: 0 0 10px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .icons {
+    margin: 0;
+  }
+  .footerTopDiv {
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 850px) {
@@ -1034,10 +1049,7 @@ a {
     align-items: center;
     justify-content: center;
   } */
-  .footerDetail {
-    margin: 0;
-    padding: 0;
-  }
+
   .logoandicons {
     flex-direction: column;
     margin: 0;
