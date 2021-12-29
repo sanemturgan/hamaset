@@ -29,10 +29,10 @@
 }
 
 @media screen and (max-width: 580px) {
-  .bottomNewsCard {
+  /* .bottomNewsCard {
     flex-direction: column;
     width: 200px;
-  }
+  } */
   .bottomNewsCardTitle {
     font-size: 18px;
   }

@@ -2,9 +2,13 @@
 html,
 body {
   font-family: "Poppins", sans-serif;
+  height: 100%;
+  max-height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
   padding: 0;
   margin: 0;
-  list-style: none;
+  border: 0;
 }
 a {
   color: inherit;
@@ -106,6 +110,7 @@ a {
 #logoNav {
   display: none;
   width: 190px;
+  padding-right: 20px;
 }
 
 #searchButton {
@@ -394,7 +399,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-top: -80px;
+  margin-top: -110px;
   margin-left: -60px;
 }
 .cardNews {
@@ -453,6 +458,7 @@ a {
 }
 .cardNewsText {
   padding: 0 20px;
+  height: 72px;
   display: flex;
   align-items: flex-start;
 }
@@ -679,7 +685,6 @@ a {
   max-width: 1200px;
   align-items: center;
   justify-content: center;
-  margin: auto;
 }
 .bottomNewsCard {
   border: 1px solid #dcdcdc;
@@ -687,20 +692,24 @@ a {
   justify-content: center;
   align-items: center;
   width: 580px;
+  height: 180px;
   margin: 10px 5px;
 }
 .bottomNewsCardImg {
   margin: 0;
   padding: 0;
-  width: 290px;
+  width: 300px;
+  height: 180px;
+  position: relative;
+  object-fit: cover;
 }
 .bottomNewsCardDetail {
   width: 100%;
 }
 .bottomNewsCardImg img {
-  position: relative;
-  object-fit: contain;
+  object-fit: cover;
   width: 100%;
+  height: 100%;
 }
 .bottomCardWriterInfo {
   display: flex;
@@ -1063,6 +1072,7 @@ a {
 
   .cardNewsImg {
     width: 290px;
+    padding: 20px;
   }
   .cardNews {
     width: 300px;
@@ -1077,15 +1087,18 @@ a {
     font-size: 12px;
   }
   .bottomNewsCard {
-    width: 320px;
+    width: 100%;
+    height: 100px;
   }
   .bottomNewsMoreButton {
     width: 100%;
     padding: 10px;
   }
   .bottomNewsCardImg {
-    display: none;
+    width: 150px;
+    height: 100px;
   }
+
   .footerDetail p {
     font-size: 10px;
   }
@@ -1115,5 +1128,16 @@ a {
 
   .HeaderCenter h4 {
     font-size: 16px;
+  }
+  #searchButtonInsıde {
+    padding: 0;
+  }
+  .ms-auto {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  .bottomNewsCardImg {
+    display: none;
   }
 }
