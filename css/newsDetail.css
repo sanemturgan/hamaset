@@ -166,7 +166,8 @@
 }
 .writerSection {
   display: flex;
-  width: 60%;
+  width: 100%;
+  padding: 20px 60px 0 0;
 }
 .writerDetails {
   display: flex;
@@ -196,7 +197,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 60%;
+  width: 90%;
 }
 .newsText p {
   font-size: 20px;
@@ -209,20 +210,25 @@
   padding: 10px;
 }
 .newsTextImg {
-  margin: 10px 0;
+  margin: 10px 20px 10px 0;
 }
 .newsTextImg img {
   position: relative;
   object-fit: cover;
   width: 100%;
 }
+.SectionOne {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 .writerOtherText {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  top: 520px;
-  right: 460px;
-  width: 15%;
+  position: relative;
+  width: 260px;
+  top: -723px;
+  right: 0px;
 }
 .writerOtherTextHeader {
   display: flex;
@@ -238,11 +244,12 @@
 .writerOtherText ul {
   list-style: none;
   padding: 20px;
+  width: 260px;
 }
 .writerOtherText li {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 20px 0;
 }
 .otherTitle {
   display: flex;
@@ -366,16 +373,16 @@
 }
 
 @media screen and (max-width: 1800px) {
-  .writerOtherText {
+  /* .writerOtherText {
     top: 500px;
     right: 300px;
     width: 20%;
-  }
+  } */
 }
 @media screen and (max-width: 1500px) {
-  .writerOtherText {
+  /* .writerOtherText {
     right: 200px;
-  }
+  } */
 }
 @media screen and (max-width: 1300px) {
   .textMain {
@@ -400,6 +407,8 @@
   }
   .writerOtherText ul {
     display: flex;
+
+    width: 100%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -409,6 +418,10 @@
     align-items: center;
     justify-content: center;
     width: 200px;
+    padding: 20px;
+  }
+  .newsTextImg {
+    margin: 10px;
   }
   .otherTitle {
     border: none;
@@ -440,6 +453,10 @@
     align-items: center;
     justify-content: center;
     margin: auto;
+    padding: 0;
+  }
+  .writerImg {
+    padding: 0;
   }
 }
 @media screen and (max-width: 1200px) {
