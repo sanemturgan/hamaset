@@ -163,6 +163,7 @@
 .textTitle h3 {
   font-size: 40px;
   font-weight: bold;
+  margin-top: -10px;
 }
 .writerSection {
   display: flex;
