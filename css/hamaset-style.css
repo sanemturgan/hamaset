@@ -683,6 +683,7 @@ a {
   flex-wrap: wrap;
   width: 100%;
   max-width: 1200px;
+  margin: auto;
   align-items: center;
   justify-content: center;
 }
