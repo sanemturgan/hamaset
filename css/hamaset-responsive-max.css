@@ -36,7 +36,11 @@
     display: none;
   }
   #navbarDropdown.nav-link.dropdown-toggle {
-    display: none;
+    /* display: none; */
+  }
+  .nav-item .dropdown-toggle {
+    text-decoration: none !important;
+    border: none !important;
   }
   .nav-item {
     padding: 5px;

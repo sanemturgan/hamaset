@@ -18,6 +18,10 @@ a {
 * {
   box-sizing: border-box;
 }
+.nav-item .dropdown-toggle {
+  text-decoration: none !important;
+  border: none !important;
+}
 
 .carousel-item a {
   position: relative;
@@ -1004,6 +1008,7 @@ a {
   }
   .mostRead {
     width: 100%;
+    margin: auto;
   }
   .mostReadList {
     flex-direction: row;

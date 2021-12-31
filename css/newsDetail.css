@@ -340,10 +340,17 @@
 }
 .otherTextSection {
   display: flex;
-  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  max-width: 1200px;
+  width: 100%;
 }
 .otherTextCards {
-  padding: 20px;
+  width: 390px;
+  padding: 10px;
+  margin: 0 5px;
   display: flex;
   flex-direction: column;
 }
@@ -368,6 +375,11 @@
 .otherTextTitle h5 {
   color: #313131;
   font-weight: bolder;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 .otherDetails {
   display: flex;
@@ -500,6 +512,7 @@
   }
   .writerInfo span {
     font-size: 12px;
+    margin-bottom: 10pz;
   }
   .writerMail a {
     font-size: 12px;
