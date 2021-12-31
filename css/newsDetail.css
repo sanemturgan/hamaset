@@ -43,9 +43,9 @@
 }
 .textSection {
   display: flex;
-
+  /* 
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 .textTitleShort {
   font-size: 28px;
@@ -231,8 +231,9 @@
   display: flex;
   flex-direction: column;
   position: relative;
+
   width: 260px;
-  top: -730px;
+  margin-top: 65px;
   right: 0px;
 }
 .writerOtherTextHeader {
@@ -410,6 +411,7 @@
     top: 0;
     right: 0;
     width: 100%;
+    margin-top: 0;
   }
   .writerOtherText ul {
     display: flex;
