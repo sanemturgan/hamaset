@@ -595,6 +595,9 @@ a {
   font-size: 16px;
   font-weight: bold;
 }
+.mostReadHeader h3 {
+  margin-bottom: 0;
+}
 .mostReadList {
   display: flex;
   flex-direction: column;
@@ -1110,6 +1113,9 @@ a {
   }
 }
 @media screen and (max-width: 850px) {
+  .carousel-inner {
+    margin-left: 0px;
+  }
   .mostReadList {
     flex-direction: column;
     align-items: center;
@@ -1213,8 +1219,44 @@ a {
     padding: 0;
   }
 }
+@media screen and (max-width: 700px) {
+  .bottomNewsCard {
+    margin: 10px 0;
+  }
+}
 @media screen and (max-width: 360px) {
   .bottomNewsCardImg {
     display: none;
+  }
+
+  .bottomNewsCardTitle a {
+    font-size: 12px;
+  }
+  .cardDate p {
+    font-size: 10px;
+  }
+  .cardMore a {
+    font-size: 10px;
+  }
+  #button6 {
+    font-size: 12px;
+  }
+  .footerDetail {
+    font-size: 12px;
+  }
+  .private p {
+    font-size: 10px;
+  }
+  .mostReadHeader h3 {
+    font-size: 16px;
+  }
+  .caption-title {
+    font-size: 24px;
+
+    line-height: 30px;
+  }
+  .hero-box-title {
+    font-size: 16px;
+    line-height: 20px;
   }
 }

@@ -356,8 +356,9 @@
 }
 .otherTextCardHeader {
   display: flex;
-
+  align-items: center;
   font-weight: bolder;
+  margin-bottom: 20px;
 }
 .otherTextCardHeader span {
   color: #e23734;
@@ -371,6 +372,10 @@
 }
 .otherTextCardHeader p {
   color: #dcdcdc;
+  margin: 0;
+}
+.otherTextTitle {
+  margin-bottom: 20px;
 }
 .otherTextTitle h5 {
   color: #313131;
@@ -512,7 +517,7 @@
   }
   .writerInfo span {
     font-size: 12px;
-    margin-bottom: 10pz;
+    margin-bottom: 10px;
   }
   .writerMail a {
     font-size: 12px;
