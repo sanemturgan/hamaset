@@ -206,16 +206,20 @@
                                         <i class="fab fa-whatsapp"></i>
                                     </div>
                                     <div class="zoomer">
-                                        <a><i class="fas fa-minus"></i></a>
+                                        <input type="range" min="16" max="30" id="rFont" value="12">
+                                        <button style="border:none" id="#t_smaller"><a><i
+                                                    class="fas fa-minus"></i></a></button>
                                         <i class="fas fa-font"></i>
-                                        <a><i class="fas fa-plus"></i></a>
+                                        <button style="border:none" id="#t_bigger"><a><i
+                                                    class="fas fa-plus"></i></a></button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="newsText">
-                        <p>Bosna’da tarih tekerrür ediyor. Durum endişe verici. Bosna-Hersek’teki Sırp temsilciler bugün
+                        <p id="kutu">Bosna’da tarih tekerrür ediyor. Durum endişe verici. Bosna-Hersek’teki Sırp
+                            temsilciler bugün
                             1992’de
                             kullandıkları terimlerin aynısını kullanıyorlar. Radovan Karaciç 1991’de Bosna Hersek
                             Cumhuriyeti
@@ -231,8 +235,10 @@
                         <div class="newsTextImg">
                             <img src="/img/bigbosna.png" alt="">
                         </div>
-                        <span>“NİSAN PAKETİ” REDDEDİLİNCE SIRPLARIN AYRILIKÇI POLİTİKASI YÜKSELİŞE GEÇTİ</span>
-                        <p>Milorad Dodik, 1998 yılında ABD Ordusu tanklarıyla iktidara geldi. “Sırp soykırımı”
+                        <span id="kutu5">“NİSAN PAKETİ” REDDEDİLİNCE SIRPLARIN AYRILIKÇI POLİTİKASI YÜKSELİŞE
+                            GEÇTİ</span>
+                        <p id="kutu2">Milorad Dodik, 1998 yılında ABD Ordusu tanklarıyla iktidara geldi. “Sırp
+                            soykırımı”
                             politikasının
                             güçten düştüğü ve Bosna-Hersek’teki Sırp halkının “demokratik geleneğine” ulaştığı
                             görülüyordu.
@@ -253,9 +259,10 @@
                             temsilcilerin
                             kontrolünde.
                         </p>
-                        <span>BUNDAN SONRAKİ ADIM SIRP CUMHURİYETİ BAĞIMSIZLIK REFERANDUMU OLACAK
+                        <span id="kutu6">BUNDAN SONRAKİ ADIM SIRP CUMHURİYETİ BAĞIMSIZLIK REFERANDUMU OLACAK
                         </span>
-                        <p>Tarih boyunca Sırp ve Hırvat taraflar arasında Bosna-Hersek’in parçalanmasını amaçlayan
+                        <p id="kutu3">Tarih boyunca Sırp ve Hırvat taraflar arasında Bosna-Hersek’in parçalanmasını
+                            amaçlayan
                             birçok
                             anlaşma yapılmıştır. Radovan Karaciç ve Mate Boban arasındaki anlaşma bunlardan biriydi.
                             Ancak
@@ -278,10 +285,10 @@
                             Dolaylı Vergi Dairesi, Ordu ve Bosna Hersek’in bekası için önemli olan kurumlar hakkındaki
                             kararlarını geri çekmesi, darbe ve ardından savaş anlamına gelir.
                         </p>
-                        <span>LİBERALLER, BOŞNAKLARIN BOSNA HERSEK’İ
+                        <span id="kutu7">LİBERALLER, BOŞNAKLARIN BOSNA HERSEK’İ
                             SAVUNMASINI ALAYA ALIYOR
                         </span>
-                        <p>
+                        <p id="kutu4">
                             Bosna Hersek devleti için onlarca aile üyesini kaybeden biri, Sırpların devletinin bir
                             kısmını
                             elinden almasına seyirci kalamaz. Milorad Dodik böyle bir adım atsa bile, İslamofobi ile
@@ -525,5 +532,21 @@
         })
     });
 </script>
+
+
+
+<script>
+    rFont.oninput=function() {
+        document.getElementById("kutu").style.fontSize=rFont.value+"px";
+        document.getElementById("kutu2").style.fontSize=rFont.value+"px";
+        document.getElementById("kutu3").style.fontSize=rFont.value+"px";
+        document.getElementById("kutu3").style.fontSize=rFont.value+"px";
+        document.getElementById("kutu4").style.fontSize=rFont.value+"px";
+        document.getElementById("kutu5").style.fontSize=rFont.value+"px";
+        document.getElementById("kutu6").style.fontSize=rFont.value+"px";
+        document.getElementById("kutu7").style.fontSize=rFont.value+"px";
+    }
+</script>
+
 
 </html>
