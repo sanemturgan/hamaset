@@ -93,12 +93,7 @@
     </div>
 
     <!-- Navigation End -->
-    <div class="breadCrumbs">
-        <a href="/">Ana Sayfa</a>
-        <i class="fas fa-arrow-right"></i>
-        <a href="/Dünya">Yazarlar</a>
 
-    </div>
 
 
 
@@ -107,174 +102,894 @@
     </div>
 
     <div class="WritersMain">
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
+
+    </div>
+    <style>
+        .accordion {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+
+        }
+
+        .accordion-item {
+            display: flex;
+            flex-direction: column;
+            border: none;
+
+
+            align-items: flex-start;
+
+            width: 320px;
+            margin: 20px 30px;
+        }
+
+        .HeaderMain h1 {
+            margin-left: 50px;
+        }
+
+        .accordion-header {
+            width: 320px;
+            border-color: #fff;
+
+        }
+
+        .accordion-button {
+            margin-left: -5px;
+        }
+
+        .accordion-body {
+            margin-right: -10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0 !important;
+            background-color: #fff;
+            width: 100%;
+
+        }
+
+        .accordion-button:not(.collapsed) {
+            color: #fff;
+            background-color: #fff;
+            box-shadow: none !important;
+        }
+
+        .accordion-button:focus {
+            border-color: #fff;
+        }
+
+        .accordion-button-collapsed {
+            padding: 0 !important;
+        }
+
+        .accordion-button {
+            padding: 0 !important;
+        }
+
+        .bottomNewsCard {
+
+            width: 300px;
+            height: 70px;
+        }
+
+        .bottomCardWriterInfo {
+            padding: 0;
+            margin: 0;
+        }
+
+        .bottomNewsCardTitle {
+            padding: 0;
+            margin: 0;
+        }
+
+        .cardFooter {
+            padding: 0;
+            margin: 0;
+        }
+
+        @media screen and (max-width:1200px) {
+            .accordion {
+
+                justify-content: center;
+            }
+
+            .HeaderMain h1 {
+                margin-left: 0;
+            }
+        }
+
+        @media screen and (max-width:760px) {
+            .accordion-body {
+                margin-right: 20px;
+            }
+        }
+    </style>
+
+
+
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    <div class="writerCard">
+                        <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
+                        <div class="writerCardInfo">
+                            <h4>Türkiye</h4>
+                            <span>Ali Şahin</span>
+
+                        </div>
+                    </div>
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <div class="writerCard">
+                        <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
+                        <div class="writerCardInfo">
+                            <h4>Türkiye</h4>
+                            <span>Ali Şahin</span>
+
+                        </div>
+                    </div>
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                    aria-expanded="true" aria-controls="collapseThree">
+                    <div class="writerCard">
+                        <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
+                        <div class="writerCardInfo">
+                            <h4>Türkiye</h4>
+                            <span>Ali Şahin</span>
+                        </div>
+                    </div>
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                    aria-expanded="true" aria-controls="collapseFour">
+                    <div class="writerCard">
+                        <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
+                        <div class="writerCardInfo">
+                            <h4>Türkiye</h4>
+                            <span>Ali Şahin</span>
+
+                        </div>
+                    </div>
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                    aria-expanded="true" aria-controls="collapseFive">
+                    <div class="writerCard">
+                        <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
+                        <div class="writerCardInfo">
+                            <h4>Türkiye</h4>
+                            <span>Ali Şahin</span>
+
+                        </div>
+                    </div>
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                    aria-expanded="true" aria-controls="collapseSix">
+                    <div class="writerCard">
+                        <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
+                        <div class="writerCardInfo">
+                            <h4>Türkiye</h4>
+                            <span>Ali Şahin</span>
+
+                        </div>
+                    </div>
+                </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse show" aria-labelledby="headingSix"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                    aria-expanded="true" aria-controls="collapseSeven">
+                    <div class="writerCard">
+                        <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
+                        <div class="writerCardInfo">
+                            <h4>Türkiye</h4>
+                            <span>Ali Şahin</span>
+
+                        </div>
+                    </div>
+                </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse show" aria-labelledby="headingSeven"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingEight">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight"
+                    aria-expanded="true" aria-controls="collapseEight">
+                    <div class="writerCard">
+                        <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
+                        <div class="writerCardInfo">
+                            <h4>Türkiye</h4>
+                            <span>Ali Şahin</span>
+
+                        </div>
+                    </div>
+                </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse show" aria-labelledby="headingEight"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingNine">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine"
+                    aria-expanded="true" aria-controls="collapseNine">
+                    <div class="writerCard">
+                        <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
+                        <div class="writerCardInfo">
+                            <h4>Türkiye</h4>
+                            <span>Ali Şahin</span>
+
+                        </div>
+                    </div>
+                </button>
+            </h2>
+            <div id="collapseNine" class="accordion-collapse collapse show" aria-labelledby="headingNine"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomNewsCard">
+
+                        <div class="bottomNewsCardDetail">
+                            <div class="bottomCardWriterInfo">
+                                <h6>Dünya</h6> <span>İBRAHİM DELİC</span>
+                                <p>|</p>
+                                <p>Türkiye</p>
+                            </div>
+                            <div class="bottomNewsCardTitle"> <a href="/newsDetail.html"> Bosna-Hersek’te Otuz Yıl
+                                    Sonra
+                                    Aynı Tehdit</a></div>
+                            <div class="cardFooter">
+                                <div class="cardDate">
+                                    <p>18 Ekim 2021</p>
+                                </div>
+
+                                <div class="cardMore">
+                                    <i class="far fa-clock"></i>
+                                    <a href="/">devamını oku</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
-            </div>
-        </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
-            </div>
-        </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
-            </div>
-        </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
-            </div>
-        </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
-            </div>
-        </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Mahmud Hasan Naeem</span>
-                <p>mahmudhasannaeem@gmail.com</p>
-            </div>
-        </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
-            </div>
-        </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
-            </div>
-        </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
-            </div>
-        </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
-            </div>
-        </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
-            </div>
-        </div>
-        <div class="writerCard">
-            <div class="writerCardImg"><img src="/img/01_Ali_Sahin.png" alt=""></div>
-            <div class="writerCardInfo">
-                <h4>Türkiye</h4>
-                <span>Ali Şahin</span>
-                <p>info@hamaset.com.tr</p>
-            </div>
-        </div>
+    </div>
     </div>
 
 

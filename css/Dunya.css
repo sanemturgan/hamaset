@@ -1,13 +1,22 @@
 .HeaderMain h1 {
-  font-size: 48px;
+  max-width: 1190px;
+  width: 100%;
+  font-size: 27px;
+  margin: 0;
+  padding: 5px 0;
   font-weight: bold;
-  margin: 20px 0 0 0;
 }
 .HeaderMain {
-  max-width: 1190px;
+  width: 100%;
   display: flex;
   align-items: center;
-  margin: auto;
+  justify-content: center;
+  background-color: #e23734;
+  color: #f3f4f4;
+  margin: 0 auto;
+  position: sticky;
+  top: 40px;
+  z-index: 9;
 }
 .lastAdded {
   width: 100%;

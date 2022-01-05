@@ -48,11 +48,15 @@
   align-items: center; */
 }
 .textTitleShort {
+  padding: 0 100px 0 0;
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 400;
 }
 .writerImg {
   padding: 0 20px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .writeImg img {
   position: relative;
@@ -168,8 +172,10 @@
 }
 .writerSection {
   display: flex;
-  width: 100%;
-  padding: 20px 60px 0 0;
+  width: 850px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border: 1px solid red;
 }
 .writerDetails {
   display: flex;
@@ -232,8 +238,8 @@
   flex-direction: column;
   position: relative;
 
-  width: 260px;
-  margin-top: 65px;
+  width: 400px;
+  margin-top: 45px;
   right: 0px;
 }
 .writerOtherTextHeader {
@@ -333,22 +339,30 @@
 }
 .otherTextHeader {
   border-top: 1px solid #bebcbc;
-  border-bottom: 1px solid #bebcbc;
+  /* border-bottom: 1px solid #bebcbc; */
   padding: 10px;
   display: flex;
   align-items: center;
+  width: 100%;
+  background-color: #111;
+  color: #fff;
 }
 .otherTextSection {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   padding: 10px 0;
-  max-width: 1200px;
-  width: 100%;
+  /* background-color: #111; */
 }
-.otherTextCards {
-  width: 390px;
+.otherTextCardImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.otherTextCardImg .otherTextCards {
+  width: 500px;
   padding: 10px;
   margin: 0 5px;
   display: flex;
@@ -365,20 +379,20 @@
   margin: 0 10px;
 }
 .otherTextCardHeader h6 {
-  color: #a0a0a0;
+  color: #fff;
   margin: 0;
   padding: 0;
   font-weight: bolder;
 }
 .otherTextCardHeader p {
-  color: #dcdcdc;
+  color: #fff;
   margin: 0;
 }
 .otherTextTitle {
   margin-bottom: 20px;
 }
 .otherTextTitle h5 {
-  color: #313131;
+  color: #fff;
   font-weight: bolder;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -389,11 +403,14 @@
 .otherDetails {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #bebcbc;
+  border-top: 1px solid #fff;
   padding: 10px 0;
 }
 .otherDetails a {
   color: #e23734;
+}
+.otherDetails p {
+  color: #fff;
 }
 
 @media screen and (max-width: 1800px) {
@@ -419,6 +436,7 @@
   }
   .textTitleShort {
     text-align: center;
+    padding: 0;
   }
   .textSection {
     flex-direction: column;
