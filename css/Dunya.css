@@ -6,6 +6,13 @@
   padding: 5px 0;
   font-weight: bold;
 }
+.headerTitle {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
 .HeaderMain {
   width: 100%;
   display: flex;
@@ -17,6 +24,9 @@
   position: sticky;
   top: 40px;
   z-index: 9;
+}
+.HeaderMain a {
+  margin-right: 20px;
 }
 .lastAdded {
   width: 100%;
