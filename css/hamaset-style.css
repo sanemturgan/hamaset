@@ -312,6 +312,9 @@ a {
   background-position: center;
   background-size: cover;
 }
+.pe-md-0 {
+  padding-left: 20px;
+}
 
 .size-a {
   padding: 0 20px 20px 20px;
@@ -416,6 +419,12 @@ a {
 /* Hero End */
 
 /* Writers Start */
+.containerWriters {
+  max-width: 1185px;
+  margin: auto;
+  padding: 0;
+  margin-bottom: 10px;
+}
 
 .section-title {
   padding: 10px 0px;
@@ -512,7 +521,7 @@ a {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1185px;
   margin: auto;
   margin-top: 20px;
 }
@@ -522,7 +531,7 @@ a {
   align-items: center;
   justify-content: center;
 
-  margin-left: -70px;
+  margin-left: -107px;
 }
 .cardNews {
   display: flex;
@@ -531,7 +540,7 @@ a {
   border: 1px solid #dcdcdc;
   width: 430px;
   height: 480px;
-  margin: 0 10px 20px 10px;
+  margin: 0 10px 20px 5px;
 }
 .cardNewsImg {
   width: 384px;
@@ -634,8 +643,8 @@ a {
   display: flex;
   flex-direction: column;
   border: 1px solid #dcdcdc;
-  margin: 0px 0px 20px -50px;
-  width: 500px;
+  margin: 0px 0px 20px -97px;
+  width: 470px;
 }
 .mostReadHeader {
   border-bottom: 1px solid #dcdcdc;
@@ -723,9 +732,10 @@ a {
   color: #313131;
 }
 /*Culture Section Start*/
-.cultureSwiperMain {
+
+/* .cultureSwiperMain {
   margin-top: 10px;
-}
+} */
 .cultureSwiperHeader {
   width: 100%;
   padding: 0 10px;
@@ -735,13 +745,13 @@ a {
 .HeaderCenter {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   max-width: 1200px;
   margin: auto;
 }
 .HeaderCenter h4 {
-  margin: 0;
+  margin: 0 0 0 7px;
 }
 .stick {
   padding: 20px;
@@ -763,6 +773,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 10px;
 }
 .cultureSwiperImg img {
   position: relative;
@@ -778,6 +789,7 @@ a {
   padding: 10px 0 0 0;
   font-size: 14px;
   font-weight: bold;
+  margin-left: 10px;
 }
 .swiperWriterInfo span {
   color: #198f94;
@@ -802,6 +814,7 @@ a {
   display: flex;
   justify-content: flex-start;
   width: 100%;
+  margin-left: 10px;
 }
 .cultureSwiperTitle:hover {
   text-decoration: underline;
@@ -903,7 +916,7 @@ a {
 }
 .cardComment {
   display: flex;
-
+  align-items: center;
   justify-content: center;
   color: #a0a0a0;
 }
@@ -916,6 +929,7 @@ a {
 }
 .cardview {
   display: flex;
+  align-items: center;
   justify-content: center;
   color: #a0a0a0;
 }
