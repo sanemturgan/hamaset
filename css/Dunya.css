@@ -12,6 +12,8 @@
   width: 100%;
   align-items: center;
   justify-content: flex-start;
+
+  margin-left: 20px;
 }
 .HeaderMain {
   width: 100%;

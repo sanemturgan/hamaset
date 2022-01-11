@@ -47,10 +47,15 @@
   justify-content: center;
   align-items: center; */
 }
+.textTitle {
+  max-width: 790px;
+  margin-top: 10px;
+}
 .textTitleShort {
   padding: 0 100px 0 0;
   font-size: 28px;
   font-weight: 400;
+  max-width: 790px;
 }
 .writerImg {
   padding: 0 20px 0 0;
@@ -172,7 +177,7 @@
 }
 .writerSection {
   display: flex;
-  width: 850px;
+  width: 790px;
   padding: 10px;
   background-color: #f4f4f4;
   border: 1px solid red;
@@ -239,7 +244,7 @@
   position: relative;
 
   width: 400px;
-  margin-top: 45px;
+  margin-top: 58px;
   right: 0px;
 }
 .writerOtherTextHeader {
@@ -490,7 +495,11 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    padding: 0;
+    padding: 10px;
+    width: 100%;
+  }
+  .newsText p {
+    padding: 0 10px;
   }
   .writerImg {
     padding: 0;
