@@ -553,6 +553,7 @@ a {
   object-position: center;
 }
 .cardNewsImg img {
+  position: relative;
   width: 100%;
   height: 185px;
   object-fit: cover;
@@ -645,6 +646,7 @@ a {
   border: 1px solid #dcdcdc;
   margin: 0px 0px 20px -97px;
   width: 470px;
+  height: 980px;
 }
 .mostReadHeader {
   border-bottom: 1px solid #dcdcdc;
@@ -707,7 +709,7 @@ a {
   display: flex;
   align-items: flex-start;
 }
-.mostReadDetailTitle h4 {
+.mostReadDetailTitle a {
   font-size: 16px;
   color: #313131;
   font-weight: bold;
@@ -773,11 +775,11 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
+  margin: 10px 10px -10px 0;
 }
 .cultureSwiperImg img {
   position: relative;
-  object-fit: contain;
+  object-fit: cover;
   width: 100%;
   height: 100%;
 }
@@ -1089,6 +1091,7 @@ a {
   .mostRead {
     width: 100%;
     margin: auto;
+    height: fit-content;
   }
   .mostReadList {
     flex-direction: row;
