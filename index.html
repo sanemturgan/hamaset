@@ -668,6 +668,7 @@
 
 
         .swiper-pagination-bullet {
+
             width: 10px;
             height: 10px;
             text-align: center;
@@ -687,12 +688,36 @@
 
         @media screen and (max-width:1200px) {
             .swiper-slide {
-                width: 300px;
+                width: 320px;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                margin-right: 10px;
+
+            }
+
+            .swiper-horizontal>.swiper-pagination-bullets,
+            .swiper-pagination-bullets.swiper-pagination-horizontal {
+                bottom: 4px !important;
             }
 
             .swiper {
 
                 height: 300px;
+            }
+
+            .swiperWriterInfo {
+                justify-content: center;
+            }
+
+            .cultureSwiperTitle {
+                justify-content: center;
+            }
+
+            .cultureSwiperImg {
+                margin-left: 20px;
+
+
             }
 
 

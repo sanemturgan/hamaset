@@ -185,6 +185,79 @@
         </div>
     </div>
 
+    <div class="bannerSection">
+        <style>
+            .bannerSection {
+                max-width: 1220px;
+                margin: auto;
+                margin-top: 20px;
+            }
+
+            @media screen and (max-width:1200px) {
+                .bannerSection {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .col-md-8 {
+                    width: 100% !important;
+                    padding: 0 !important;
+                }
+
+
+            }
+        </style>
+        <div class="col-md-8 pe-md-0">
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="/Dunya.html">
+                            <img src="img/slider-img-01.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <h5>DÜNYA</h5>
+                                <p class="caption-title">BOSNA-HERSEK'TE 30 YIL SONRA AYNI TEHTİT</p>
+                                <p class="caption-info"><span>İBRAHİM DELİC</span> | BOSNA-HERSEK</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="/Siyaset.html">
+                            <img src="img/slider-img-02.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <h5>SİYASET</h5>
+                                <p class="caption-title">BOSNA-HERSEK'TE 30 YIL SONRA AYNI TEHTİT</p>
+                                <p class="caption-info"><span>İBRAHİM DELİC</span> | BOSNA-HERSEK</p>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="carousel-item">
+                        <a href="/Kultur.html">
+                            <img src="img/slider-img-03.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <h5>KÜLTÜR</h5>
+                                <p class="caption-title">BOSNA-HERSEK'TE 30 YIL SONRA AYNI TEHTİT</p>
+                                <p class="caption-info"><span>İBRAHİM DELİC</span> | BOSNA-HERSEK</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </div>
 
 
 
@@ -192,6 +265,35 @@
 
     <!--News Cards and Most Read-->
     <div class="newsSection">
+        <style>
+            .mostRead {
+                position: relative;
+                top: -518px;
+                right: 0;
+                width: 49%;
+                height: fit-content !important;
+            }
+
+            .cardNews {
+                width: 389px;
+            }
+
+            @media screen and (max-width:1200px) {
+                .mostRead {
+                    top: 0;
+                    width: 100%;
+                }
+
+
+
+                /* .cardNews {
+                    width: 550px;
+                    border: 1px solid red;
+                } */
+
+
+            }
+        </style>
         <div class="newsCards">
             <div class="cardNews">
                 <div class="cardNewsImg"><img src="img/carlik.png" alt=""></div>
@@ -326,6 +428,7 @@
 
         </div>
         <div class="mostRead">
+
             <div class="mostReadHeader">
                 <h3>ÇOK OKUNANLAR</h3>
             </div>
@@ -366,7 +469,7 @@
                     <div class="mostReadListNumber">
                         <p>3</p>
                     </div>
-                    <div class="mostReadListDetail">
+                    <div class="mostReadListDetail" style="margin-right:10px">
                         <div class="mostReadDetailHeader">
                             <h5> <a href="/Siyaset.html"> SİYASET</a></h5>
                         </div>
@@ -414,6 +517,7 @@
         </div>
     </div>
     <div class="lastAdded">
+
         <h3>SON EKLENENLER</h3>
     </div>
     <!-- Swiper -->
