@@ -240,7 +240,7 @@ a {
 #searchInput {
   height: 40px;
   width: 100%;
-
+  color: #fff;
   background: #111;
   border: none;
   padding-left: 320px;
@@ -692,6 +692,7 @@ a {
   text-align: center;
   justify-content: center;
   margin-right: 20px;
+  margin-top: -60px;
 }
 .mostReadListNumber p {
   color: #b5b5b5;
@@ -1179,9 +1180,7 @@ a {
   .footerTop {
     justify-content: space-between;
   }
-  .cultureSwiperImg {
-    width: 260px;
-  }
+
   .logoandicons {
     padding: 0 25px;
   }
@@ -1203,13 +1202,13 @@ a {
     margin: 0 6px;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .containerNavbar {
     justify-content: space-between;
     align-items: flex-start;
   }
   #searchButton {
-    margin-top: 6px !important;
+    margin-top: 5px !important;
   }
   /* .navbar-nav {
     background-color: #111;
@@ -1253,6 +1252,9 @@ a {
     justify-content: center;
     width: 300px;
   }
+  .mostReadListNumber {
+    margin-top: -50px;
+  }
 
   .mostReadDetailTitle a {
     font-size: 14px;
@@ -1292,6 +1294,10 @@ a {
   }
   .cultureSwiperHeader {
     font-size: 20px;
+  }
+  .cultureSwiperImg {
+    width: 100%;
+    padding: 0 0 20px 0;
   }
   .cultureSwiperTitle a {
     font-size: 12px;
@@ -1345,10 +1351,17 @@ a {
   .ms-auto {
     padding: 0;
   }
+  #searchButton {
+    margin-top: 10px !important;
+  }
 }
 @media screen and (max-width: 700px) {
   .bottomNewsCard {
     margin: 10px 0;
+  }
+  .caption-title {
+    font-size: 24px;
+    line-height: 30px;
   }
 }
 @media screen and (max-width: 365px) {
@@ -1377,11 +1390,7 @@ a {
   .mostReadHeader h3 {
     font-size: 16px;
   }
-  .caption-title {
-    font-size: 24px;
 
-    line-height: 30px;
-  }
   .hero-box-title {
     font-size: 16px;
     line-height: 20px;
