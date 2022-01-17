@@ -47,9 +47,17 @@
 .bottomNewsCardTitle a {
   font-size: 14px;
 }
+@media screen and (max-width: 1400px) {
+  .newsCards {
+    margin-left: -102px;
+  }
+}
 @media screen and (max-width: 1200px) {
   .HeaderMain {
     justify-content: center;
+  }
+  .newsCards {
+    margin-left: 0;
   }
 }
 @media screen and (max-width: 580px) {
