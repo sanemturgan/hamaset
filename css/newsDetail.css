@@ -227,6 +227,7 @@
 }
 .newsTextImg {
   margin: 10px 20px 10px 0;
+  width: 100%;
 }
 .newsTextImg img {
   position: relative;
