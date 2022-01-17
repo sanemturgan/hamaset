@@ -548,12 +548,12 @@ a {
   margin: 0 10px 20px 5px;
 }
 .cardNewsImg {
-  /* width: 384px; */
+  width: 384px;
   height: 185px;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin: 25px auto; */
+  margin: 40px auto;
   margin: auto;
   position: relative;
   object-position: center;
@@ -1078,6 +1078,7 @@ a {
     height: 400px;
   }
   .cardNewsImg {
+    width: 320px;
     margin: 23px auto;
   }
 
@@ -1287,7 +1288,8 @@ a {
     width: 320px !important;
   }
   .cardNewsImg {
-    width: 278px;
+    width: 285px;
+    margin: 5px auto;
   }
   .swiperWriterInfo {
     display: none;
