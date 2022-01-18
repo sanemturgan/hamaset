@@ -576,10 +576,10 @@
     font-size: 10px;
   }
   .shareIcons i {
-    font-size: 8px;
+    font-size: 12px;
   }
   .IconsColor i {
-    font-size: 8px;
+    font-size: 12px;
   }
   .IconView {
     font-size: 8px;
@@ -592,5 +592,13 @@
   }
   .writerDate p {
     font-size: 8px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .newsTextImg {
+    width: 360px;
+  }
+  .newsText p {
+    padding: 0 30px;
   }
 }

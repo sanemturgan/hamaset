@@ -1261,7 +1261,7 @@ a {
     width: 300px;
   }
   .mostReadListNumber {
-    margin-top: -50px;
+    margin-top: -23px;
   }
 
   .mostReadDetailTitle a {
@@ -1295,7 +1295,7 @@ a {
   }
   .cardNewsImg {
     width: 285px;
-    margin: 5px auto;
+    margin: 15px auto;
   }
   .swiperWriterInfo {
     display: none;
@@ -1365,6 +1365,9 @@ a {
   }
   #searchButton {
     margin-top: 10px !important;
+  }
+  .pe-md-0 {
+    padding: 0 20px;
   }
 }
 @media screen and (max-width: 700px) {
