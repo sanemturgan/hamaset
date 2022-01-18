@@ -573,6 +573,7 @@ a {
   font-weight: bold;
 }
 .cardNewsTitle {
+  height: 55px;
   padding: 0 20px;
   display: flex;
   align-items: flex-start;
@@ -585,6 +586,7 @@ a {
   font-size: 25px;
   color: #313131;
   font-weight: bold;
+  height: 60px;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -720,7 +722,7 @@ a {
   font-size: 16px;
   color: #313131;
   font-weight: bold;
-  /* height: 60px; */
+  height: 55px;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
