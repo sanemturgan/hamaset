@@ -616,6 +616,7 @@ a {
   align-items: flex-start;
   font-size: 12px;
   font-weight: bold;
+  margin-top: 10px;
 }
 .cardWriterInfo p {
   color: #313131;
@@ -638,10 +639,20 @@ a {
 .cardDate p {
   color: #a0a0a0;
   font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 .cardMore a {
   color: #e23734;
   font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 .cardMore :hover {
   text-decoration: underline;
@@ -1182,6 +1193,7 @@ a {
     justify-content: center;
   }
   .bottomNewsCardTitle {
+    padding: 10px 0;
     font-size: 16px;
   }
 
@@ -1347,9 +1359,9 @@ a {
     font-size: 12px;
     margin-bottom: 0;
   }
-  .cardFooter {
+  /* .cardFooter {
     padding: 10px;
-  }
+  } */
   .cultureSwiperHeader {
     padding: 10px;
   }
