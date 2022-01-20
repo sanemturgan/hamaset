@@ -616,8 +616,8 @@
             align-items: center;
             /* justify-content: center; */
             padding: 0 20px 0 0;
-            width: 365px;
-            margin-right: 69px !important;
+            width: 365px !important;
+            margin-right: 70px !important;
 
 
         }
@@ -691,11 +691,12 @@
 
         @media screen and (max-width:1200px) {
             .swiper-slide {
-                /* width: 320px; */
+                width: 100% !important;
                 align-items: center;
                 justify-content: center;
                 text-align: center;
-                margin-right: 10px;
+                /* margin-right: 55px !important; */
+                padding: 0 !important;
 
             }
 
@@ -723,6 +724,10 @@
 
             }
 
+            .swiper-wrapper {
+                max-width: fit-content !important;
+            }
+
 
         }
 
@@ -739,7 +744,7 @@
         }
 
         @media screen and (max-width:540px) {
-            .swiper {
+            /* .swiper {
                 width: 100% !important;
                 align-items: center;
                 justify-content: center;
@@ -750,7 +755,6 @@
                 width: 100%;
                 display: flex;
                 align-items: center;
-
             }
 
             .swiper-slide {
@@ -758,10 +762,15 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                width: 100% !important;
-                margin: 0 94px 0 0 !important;
+            
                 padding: 0 !important;
+                width: 320px;
+                margin: 0 10px 0 20px !important;
             }
+
+            .swiper-slide .swiper-slide-active {
+                padding: 0px !important;
+            } */
 
             .cultureSwiperImg {
 
@@ -1349,6 +1358,7 @@
         var swiper=new Swiper(".mySwiper",{
             slidesPerView: 'auto',
             spaceBetween: 0,
+
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
@@ -1357,6 +1367,9 @@
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
+
+
+
         });
     </script>
     <!-- Show MOre -->
