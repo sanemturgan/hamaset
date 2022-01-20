@@ -791,7 +791,7 @@ a {
   object-fit: cover;
 }
 .cultureSwiperImg {
-  width: 320px;
+  width: 378px;
   height: 200px;
   display: flex;
   align-items: center;
@@ -1174,10 +1174,10 @@ a {
     justify-content: center;
   }
   .swiperWriterInfo span {
-    font-size: 12px;
+    font-size: 14px;
   }
   .swiperWriterInfo p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .cultureSwiperTitle a {
     font-size: 16px;
@@ -1216,6 +1216,9 @@ a {
   }
   .footerTopDiv {
     flex-direction: column;
+  }
+  .cultureSwiperImg {
+    margin: 0;
   }
 }
 @media screen and (max-width: 1048px) {
@@ -1317,15 +1320,16 @@ a {
     font-size: 20px;
   }
   .cultureSwiperImg {
-    width: 100%;
-    padding: 0 0 20px 0;
+    /* width: 100%;
+    padding: 0 0 20px 0; */
+    margin: 0;
   }
   .cultureSwiperImg img {
     /* width: 100%; */
-    height: 100%;
+    /* height: 100%; */
   }
   .cultureSwiperTitle a {
-    font-size: 12px;
+    font-size: 14px;
   }
   .bottomNewsCard {
     width: 100%;
