@@ -796,7 +796,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 10px -10px 0;
+  margin: 10px 10px -10px 10px;
 }
 .cultureSwiperImg img {
   position: relative;
