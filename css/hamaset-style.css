@@ -812,7 +812,6 @@ a {
   padding: 10px 0 0 0;
   font-size: 14px;
   font-weight: bold;
-  margin-left: 10px;
 }
 .swiperWriterInfo span {
   color: #198f94;
@@ -837,7 +836,6 @@ a {
   display: flex;
   justify-content: flex-start;
   width: 100%;
-  margin-left: 10px;
 }
 .cultureSwiperTitle:hover {
   text-decoration: underline;
