@@ -1194,6 +1194,7 @@ a {
   .bottomNewsCardTitle {
     padding: 10px 0;
     font-size: 16px;
+    margin-left: 15px;
   }
 
   .footerTop {
@@ -1393,11 +1394,14 @@ a {
     font-size: 24px;
     line-height: 30px;
   }
+  .bottomNewsCardTitle {
+    margin-left: 10px;
+  }
 }
 @media screen and (max-width: 365px) {
-  .bottomNewsCardImg {
-    display: none;
-  }
+  /* .bottomNewsCardImg {
+    width: 120px;
+  } */
 
   .bottomNewsCardTitle a {
     font-size: 12px;
