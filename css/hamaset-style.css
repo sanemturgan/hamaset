@@ -554,11 +554,12 @@ a {
   align-items: center;
   justify-content: center;
   margin: 40px auto;
-  margin: auto;
+  /* margin: auto; */
   position: relative;
   object-position: center;
 }
 .cardNewsImg img {
+  width: 384px;
   height: 185px;
   object-fit: cover;
 }
@@ -791,12 +792,12 @@ a {
   object-fit: cover;
 }
 .cultureSwiperImg {
-  width: 378px;
+  width: 320px;
   height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 10px -10px 10px;
+  margin: 10px 10px -10px 0;
 }
 .cultureSwiperImg img {
   position: relative;
@@ -806,12 +807,12 @@ a {
 }
 .swiperWriterInfo {
   display: flex;
-
   justify-content: flex-start;
   width: 100%;
   padding: 10px 0 0 0;
   font-size: 14px;
   font-weight: bold;
+  /*margin-left: 10px;*/
 }
 .swiperWriterInfo span {
   color: #198f94;
@@ -823,8 +824,7 @@ a {
   margin-bottom: 0;
 }
 .cultureSwiperTitle a {
-  font-size: 19px;
-
+  font-size: 15px;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -836,6 +836,7 @@ a {
   display: flex;
   justify-content: flex-start;
   width: 100%;
+  /*margin-left: 10px;*/
 }
 .cultureSwiperTitle:hover {
   text-decoration: underline;
@@ -1172,10 +1173,10 @@ a {
     justify-content: center;
   }
   .swiperWriterInfo span {
-    font-size: 14px;
+    font-size: 12px;
   }
   .swiperWriterInfo p {
-    font-size: 14px;
+    font-size: 12px;
   }
   .cultureSwiperTitle a {
     font-size: 16px;
@@ -1192,9 +1193,8 @@ a {
     justify-content: center;
   }
   .bottomNewsCardTitle {
-    padding: 10px 0;
-    font-size: 16px;
-    margin-left: 15px;
+    padding: 12px 0px 10px 10px;
+    font-size: 12px;
   }
 
   .footerTop {
@@ -1215,9 +1215,6 @@ a {
   }
   .footerTopDiv {
     flex-direction: column;
-  }
-  .cultureSwiperImg {
-    margin: 0;
   }
 }
 @media screen and (max-width: 1048px) {
@@ -1319,16 +1316,15 @@ a {
     font-size: 20px;
   }
   .cultureSwiperImg {
-    /* width: 100%;
-    padding: 0 0 20px 0; */
-    margin: 0;
+    width: 100%;
+    padding: 0 0 20px 0;
   }
   .cultureSwiperImg img {
     /* width: 100%; */
-    /* height: 100%; */
+    height: 100%;
   }
   .cultureSwiperTitle a {
-    font-size: 14px;
+    font-size: 12px;
   }
   .bottomNewsCard {
     width: 100%;
@@ -1394,15 +1390,8 @@ a {
     font-size: 24px;
     line-height: 30px;
   }
-  .bottomNewsCardTitle {
-    margin-left: 10px;
-  }
 }
 @media screen and (max-width: 365px) {
-  /* .bottomNewsCardImg {
-    width: 120px;
-  } */
-
   .bottomNewsCardTitle a {
     font-size: 12px;
   }
