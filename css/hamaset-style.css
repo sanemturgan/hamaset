@@ -1229,6 +1229,7 @@ a {
   }
   #searchButton {
     margin-top: 5px !important;
+    margin-right: 5px !important;
   }
   /* .navbar-nav {
     background-color: #111;
@@ -1257,21 +1258,55 @@ a {
   .dropdown-item {
     border-bottom: none !important;
   }
+
+  .mostReadList li {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .mostReadList {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+  }
+  .mostReadListDetail {
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+  }
+  .mostReadDetailTitle {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mostReadListNumber {
+    margin-right: 10px !important;
+    margin-bottom: 20px !important;
+  }
+  .mostReadWriterInfo {
+    width: 70px;
+    justify-content: flex-start;
+  }
 }
 @media screen and (max-width: 850px) {
   .carousel-inner {
     margin-left: 0px;
   }
-  .mostReadList {
+  /* .mostReadList {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-  }
-  .mostReadList li {
+  } */
+  /* .mostReadList li {
     justify-content: center;
     width: 300px;
-  }
+  } */
   .mostReadListNumber {
     margin-top: -23px;
   }
@@ -1318,6 +1353,13 @@ a {
   .cultureSwiperImg {
     width: 100%;
     padding: 0 0 20px 0;
+    margin-left: 25px;
+  }
+  .swiperWriterInfo {
+    margin-left: 25px;
+  }
+  .cultureSwiperTitle {
+    margin-left: 15px;
   }
   .cultureSwiperImg img {
     /* width: 100%; */
@@ -1377,6 +1419,7 @@ a {
   }
   #searchButton {
     margin-top: 10px !important;
+    margin-right: 10px !important;
   }
   .pe-md-0 {
     padding: 0 20px;
@@ -1389,6 +1432,37 @@ a {
   .caption-title {
     font-size: 24px;
     line-height: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .mostReadList li {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .mostReadList {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .mostReadListDetail {
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+  }
+  .mostReadDetailTitle {
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .mostReadListNumber {
+    margin-right: 10px !important;
+    margin-bottom: 20px !important;
   }
 }
 @media screen and (max-width: 365px) {
