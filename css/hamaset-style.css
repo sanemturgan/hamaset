@@ -560,7 +560,7 @@ a {
 }
 .cardNewsImg img {
   width: 384px;
-  height: 185px;
+
   object-fit: cover;
 }
 .cardNewsHeader {
@@ -1095,7 +1095,9 @@ a {
     width: 320px;
     margin: 23px auto;
   }
-
+  .cardNewsImg img {
+    width: 314px !important;
+  }
   .cardNewsHeader h5 {
     font-size: 12px;
   }
@@ -1357,6 +1359,9 @@ a {
   .cardNewsImg {
     width: 285px;
     margin: 15px auto;
+  }
+  .cardNewsImg img {
+    width: 276px !important;
   }
   .swiperWriterInfo {
     display: none;
